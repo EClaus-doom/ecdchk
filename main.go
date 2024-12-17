@@ -1,8 +1,7 @@
 // package declaration
-package ecgodemocheck
+package main
 
 //imports, should be just io, os, and fmt for this little guy
-import ()
 
 func main() {
 

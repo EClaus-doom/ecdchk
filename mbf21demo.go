@@ -1,4 +1,4 @@
-package ecgodemocheck
+package main
 
 func mbf21DemoCheck() {
 
