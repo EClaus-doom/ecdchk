@@ -1,11 +1,29 @@
 // package declaration
 package main
 
-//imports, should be just io, os, and fmt for this little guy
+import (
+	"flag"
+	"fmt"
+)
+
+var file string = ""
 
 func main() {
 
-	demobytes, err := readIntoByteSlice("demo.lmp")
+	parsename := flag.String("lump", "", "The demo file to be read through")
+
+	flag.Parse()
+
+	if *parsename == "" {
+
+		fmt.Println("Please enter a valid file name")
+		return
+
+	}
+
+	file := *parsename
+
+	demobytes, err := readIntoByteSlice(file)
 	if err != nil {
 		return
 	}
