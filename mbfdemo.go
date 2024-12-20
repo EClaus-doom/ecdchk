@@ -20,14 +20,14 @@ func mbfDemoCheck(slice []byte) {
 
 	//show header version
 	fmt.Println("")
-	fmt.Println("BOOM DEMO HEADER")
+	fmt.Println("MBF DEMO HEADER")
 	fmt.Println("")
 
 	switch version {
-	case 202:
-		fmt.Println("Version: Boom 2.02")
+	case 203:
+		fmt.Println("Version: MBF 2.03")
 	default:
-		fmt.Println("Version: Boom Older than 2.02", version)
+		fmt.Println("Version: Other MBF Version", version)
 	}
 
 	switch skill {

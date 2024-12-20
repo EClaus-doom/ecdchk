@@ -6,8 +6,6 @@ import (
 	"fmt"
 )
 
-var file string = ""
-
 func main() {
 
 	parsename := flag.String("lump", "", "The demo file to be read through")
