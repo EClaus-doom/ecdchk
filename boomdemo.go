@@ -84,13 +84,13 @@ func boomDemoUmapInfo(slice []byte) {
 	header := slice
 	//assigned variables for various flags from the demo header bytes
 	version := header[26]
-	skill = header[34]
-	episode = header[35]
-	mapnum = header[36]
-	multimode = header[37]
-	respawn = header[45]
-	fast = header[46]
-	nomo = header[47]
+	skill := header[34]
+	episode := header[35]
+	mapnum := header[36]
+	multimode := header[37]
+	respawn := header[45]
+	fast := header[46]
+	nomo := header[47]
 
 	//show header version
 	fmt.Println("")
