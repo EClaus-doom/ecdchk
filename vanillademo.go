@@ -83,6 +83,8 @@ func vanillaDemoCheck(slice []byte) {
 
 func vanillaDemoUmapInfo(slice []byte) {
 	//put into another slice in function variable called header
+	header := slice
+	//version grabbed from 27th position...
 	version := header[26]
 	//assigned variables for various flags from the demo header bytes
 	skill := header[27]

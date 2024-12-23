@@ -25,6 +25,22 @@ func main() {
 	if err != nil {
 		return
 	}
-	vanillaDemoCheck(demobytes)
+
+	version := demobytes[0]
+
+	switch version {
+	case 109:
+		{
+
+			vanillaDemoCheck(demobytes)
+
+		}
+
+	case 200:
+		{
+
+		}
+
+	}
 
 }
