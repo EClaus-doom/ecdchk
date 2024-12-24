@@ -6,7 +6,7 @@ Eric Claus' Demo Check "ecdchk" (current working title), licensed GPL3 see licen
 
 **Description:**
 
-Quick Note: ecdchk -lump <filename> for quick use
+Quick Note: ecdchk -lump *filename* for quick use
 
 Recording demos in the past I often used XDRE to check to make sure difficulty and such had been set correctly after I recorded a demo after a mistaken submission where I had not set the difficulty properly so as not to waste time with a bad submission. Later on I decided it would be cool to write a little command line tool that could be used to check difficulty, respawn and other flags quickly without having to load up something like XDRE just to check a demo header (this is before I learned about Kraflab's lmp more on that later)
 
@@ -24,7 +24,7 @@ Once you have the binary you can place it in your OS PATH somewhere or just in a
 
 **How to Use:**
 
-Just run the binary from the directory you put it in, or from anywhere if its in your PATH, you will need to do "ecdchk -lump <filename>" it will read the lump and give you some basic info about it.
+Just run the binary from the directory you put it in, or from anywhere if its in your PATH, you will need to do "ecdchk -lump *filename*" it will read the lump and give you some basic info about it.
 
 **Credits and Inspirations:**
 
