@@ -6,6 +6,8 @@ Eric Claus' Demo Check "ecdchk" (current working title), licensed GPL3 see licen
 
 **Description:**
 
+Quick Note: ecdchk -lump <filename> for quick use
+
 Recording demos in the past I often used XDRE to check to make sure difficulty and such had been set correctly after I recorded a demo after a mistaken submission where I had not set the difficulty properly so as not to waste time with a bad submission. Later on I decided it would be cool to write a little command line tool that could be used to check difficulty, respawn and other flags quickly without having to load up something like XDRE just to check a demo header (this is before I learned about Kraflab's lmp more on that later)
 
 At first I went through this with Python as I had messed around with it before but after finishing my prototype I wanted something compiled for easier distribution where Python required the interpreter. After messing around with C which felt too heavy handed and looking at a couple of other languages I ultimately settled on Go which felt comfortable as a language for me and met my wants and needs.
