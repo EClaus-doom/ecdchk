@@ -35,6 +35,6 @@ Inspiration: Kraflab https://github.com/kraflab/lmp, check out DSDA Doom as well
 Moral Support: Alaux, check out his Nugget Doom port based on Woof https://github.com/MrAlaux/Nugget-Doom  </br>
 Moral Support: Mikolah https://doomwiki.org/wiki/Mikolah  </br>
 Shoutout: my friends in the Afternoon Crew, love you guys!  </br>
-Help on Slice Reading: this post on Stack Overflow was very informative and the code helpful to customize to my use...  </br>
+Help on Slice Reading: this post on Stack Overflow was very informative and the code helpful to customize to my use...
 https://stackoverflow.com/questions/70115047/convert-binary-file-to-array-of-bytes more info can be found in the comments in sliceread.go in main  </br>
 The Go Documentation was very helpful, and left a nice starting point to find other articles for, especially when I looked into the switch statement syntax, good article here that clarifies on the Go documentation a bit for them https://www.eternaldev.com/blog/go-switch-6-ways-of-using-switch-in-go/  </p>
