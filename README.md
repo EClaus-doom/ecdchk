@@ -20,7 +20,9 @@ I hope in the future to maybe follow in Kraf's footsteps on deeper info and mayb
 
 The program is small and straightforward you can grab the binary release for the proper OS (any recently modern version of Go should work), or to build from source you will need to install the go compiler on your machine for whatever appropriate operating system see https://go.dev/dl/, and then simply do the following command in the  file "go build -o (ex. ecdchk.exe) *.go" from your command line in the repo file and it will build a binary for your system (I intend to update or improve this later but still learning a few details, but this will produce a binary).
 
-Once you have the binary you can place it in your OS PATH somewhere or just in a folder you keep your demos in, use it from you command line from there
+Once you have the binary you can place it in your OS PATH somewhere or just in a folder you keep your demos in, use it from you command line from there.
+
+NOTE: Future binaries will probably be made for arm but its just amd64 and x86 for now.
 
 **How to Use:**
 
