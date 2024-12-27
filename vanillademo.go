@@ -4,6 +4,22 @@ import (
 	"fmt"
 )
 
+const (
+	//stock vanilla version
+	vanillaVer = 109
+	//skill in shorthand, I'm too young to die, Hey not to rough etc...
+	itytd     = 0
+	hntr      = 1
+	hmp       = 2
+	ultra     = 3
+	nightmare = 4
+	//multiplayer mode flags ex
+	spCoop     = 0
+	deathMatch = 1
+	altDm      = 2
+	//
+)
+
 // function for reading through a vanilla header and showing some key flags
 func vanillaDemoCheck(slice []byte) {
 	//put into another slice in function variable called header
@@ -24,22 +40,24 @@ func vanillaDemoCheck(slice []byte) {
 	fmt.Println("")
 
 	switch version {
-	case 109:
+
+	case vanillaVer:
 		fmt.Println("Version: Vanilla 1.9")
 	default:
 		fmt.Println("Version: Vanilla Older than 1.9 ", version)
+
 	}
 
 	switch skill {
-	case 0:
+	case itytd:
 		fmt.Println("Skill: 1 - I'm Too Young to Die!")
-	case 1:
+	case hntr:
 		fmt.Println("Skill: 2 - Hey, Not Too Rough!")
-	case 2:
+	case hmp:
 		fmt.Println("Skill: 3 - Hurt Me Plenty!")
-	case 3:
+	case ultra:
 		fmt.Println("Skill: 4 - Ultraviolence!")
-	case 4:
+	case nightmare:
 		fmt.Println("Skill: 5 - Nightmare!")
 
 	}
@@ -49,11 +67,11 @@ func vanillaDemoCheck(slice []byte) {
 	fmt.Println("Map: ", mapnum)
 
 	switch multimode {
-	case 0:
+	case spCoop:
 		fmt.Println("Multiplayer Mode: Single Player or Co-op")
-	case 1:
+	case deathMatch:
 		fmt.Println("Multiplayer Mode: Deathmatch")
-	case 2:
+	case altDm:
 		fmt.Println("Multiplayer Mode: Alt-Death")
 	}
 
@@ -101,22 +119,22 @@ func vanillaDemoUmapInfo(slice []byte) {
 	fmt.Println("")
 
 	switch version {
-	case 109:
+	case vanillaVer:
 		fmt.Println("Version: Vanilla 1.9")
 	default:
 		fmt.Println("Version: Vanilla Older than 1.9 ", version)
 	}
 
 	switch skill {
-	case 0:
+	case itytd:
 		fmt.Println("Skill: 1 - I'm Too Young to Die!")
-	case 1:
+	case hntr:
 		fmt.Println("Skill: 2 - Hey, Not Too Rough!")
-	case 2:
+	case hmp:
 		fmt.Println("Skill: 3 - Hurt Me Plenty!")
-	case 3:
+	case ultra:
 		fmt.Println("Skill: 4 - Ultraviolence!")
-	case 4:
+	case nightmare:
 		fmt.Println("Skill: 5 - Nightmare!")
 
 	}
@@ -126,11 +144,11 @@ func vanillaDemoUmapInfo(slice []byte) {
 	fmt.Println("Map: ", mapnum)
 
 	switch multimode {
-	case 0:
+	case spCoop:
 		fmt.Println("Multiplayer Mode: Single Player or Co-op")
-	case 1:
+	case deathMatch:
 		fmt.Println("Multiplayer Mode: Deathmatch")
-	case 2:
+	case altDm:
 		fmt.Println("Multiplayer Mode: Alt-Death")
 	}
 
