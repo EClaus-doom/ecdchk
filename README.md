@@ -40,3 +40,14 @@ Shoutout: my friends in the Afternoon Crew, love you guys!  </br>
 Help on Slice Reading: this post on Stack Overflow was very informative and the code helpful to customize to my use...
 https://stackoverflow.com/questions/70115047/convert-binary-file-to-array-of-bytes more info can be found in the comments in sliceread.go in main  </br>
 The Go Documentation was very helpful, and left a nice starting point to find other articles for, especially when I looked into the switch statement syntax, good article here that clarifies on the Go documentation a bit for them https://www.eternaldev.com/blog/go-switch-6-ways-of-using-switch-in-go/  </p>
+
+**Other Info about demos I used:**
+
+<p> almostmatt1 Doomworld thread: https://www.doomworld.com/forum/topic/145718-question-about-lmp-headers/  </br>
+Never_Again Doomworld thread: https://www.doomworld.com/forum/topic/72033-boom-mbf-demo-header-format/  </br>
+Doomwiki Demo Article: https://doomwiki.org/wiki/Demo  </br>
+MBF21 Spec: https://github.com/kraflab/mbf21/blob/master/README.md  </br>
+
+
+
+
