@@ -4,22 +4,6 @@ import (
 	"fmt"
 )
 
-const (
-	//stock vanilla version
-	vanillaVer = 109
-	//skill in shorthand, I'm too young to die, Hey not to rough etc...
-	itytd     = 0
-	hntr      = 1
-	hmp       = 2
-	ultra     = 3
-	nightmare = 4
-	//multiplayer mode flags ex
-	spCoop     = 0
-	deathMatch = 1
-	altDm      = 2
-	//
-)
-
 // function for reading through a vanilla header and showing some key flags
 func vanillaDemoCheck(slice []byte) {
 	//put into another slice in function variable called header

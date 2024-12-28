@@ -24,22 +24,22 @@ func mbfDemoCheck(slice []byte) {
 	fmt.Println("")
 
 	switch version {
-	case 203:
+	case mbfVer:
 		fmt.Println("Version: MBF 2.03")
 	default:
 		fmt.Println("Version: Other MBF Version", version)
 	}
 
 	switch skill {
-	case 0:
+	case itytd:
 		fmt.Println("Skill: 1 - I'm Too Young to Die!")
-	case 1:
+	case hntr:
 		fmt.Println("Skill: 2 - Hey, Not Too Rough!")
-	case 2:
+	case hmp:
 		fmt.Println("Skill: 3 - Hurt Me Plenty!")
-	case 3:
+	case ultra:
 		fmt.Println("Skill: 4 - Ultraviolence!")
-	case 4:
+	case nightmare:
 		fmt.Println("Skill: 5 - Nightmare!")
 
 	}
@@ -100,22 +100,22 @@ func mbfDemoUmapInfo(slice []byte) {
 	fmt.Println("")
 
 	switch version {
-	case 203:
+	case mbfVer:
 		fmt.Println("Version: MBF 2.03")
 	default:
 		fmt.Println("Version: Other MBF Version", version)
 	}
 
 	switch skill {
-	case 0:
+	case itytd:
 		fmt.Println("Skill: 1 - I'm Too Young to Die!")
-	case 1:
+	case hntr:
 		fmt.Println("Skill: 2 - Hey, Not Too Rough!")
-	case 2:
+	case hmp:
 		fmt.Println("Skill: 3 - Hurt Me Plenty!")
-	case 3:
+	case ultra:
 		fmt.Println("Skill: 4 - Ultraviolence!")
-	case 4:
+	case nightmare:
 		fmt.Println("Skill: 5 - Nightmare!")
 
 	}
@@ -125,11 +125,11 @@ func mbfDemoUmapInfo(slice []byte) {
 	fmt.Println("Map: ", mapnum)
 
 	switch multimode {
-	case 0:
+	case spCoop:
 		fmt.Println("Multiplayer Mode: Single Player or Co-op")
-	case 1:
+	case deathMatch:
 		fmt.Println("Multiplayer Mode: Deathmatch")
-	case 2:
+	case altDm:
 		fmt.Println("Multiplayer Mode: Alt-Death")
 	}
 
